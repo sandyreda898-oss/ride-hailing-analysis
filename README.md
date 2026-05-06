@@ -59,5 +59,6 @@ High ride demand is concentrated during evening hours after work.
 
 ##  Conclusion
 This project shows how SQL can be used to analyze ride-hailing data and extract useful business insights.
-Author
+
+## Author
 Sandy Reda
