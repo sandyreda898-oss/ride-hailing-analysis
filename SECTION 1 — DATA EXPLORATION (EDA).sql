@@ -33,26 +33,6 @@ FROM Trips
 WHERE status = 'completed'
   AND start_time IS NOT NULL
   AND end_time   IS NOT NULL;
- -- 1.3  Core trip metrics — average fare, distance, and duration
---      Baseline KPIs that describe the typical trip profile on the platform.
-
-
- SELECT
-    COUNT(*)                                       AS completed_trips,
-    ROUND(AVG(fare),     2)                        AS avg_fare,
-    ROUND(AVG(distance), 2)                        AS avg_distance_km,
-    ROUND(AVG(CAST(DATEDIFF(MINUTE, start_time, end_time) AS FLOAT)), 1)
-                                                   AS avg_duration_min,
-    ROUND(MIN(fare),  2)                           AS min_fare,
-    ROUND(MAX(fare),  2)                           AS max_fare,
-    ROUND(MIN(distance), 2)                        AS min_distance_km,
-    ROUND(MAX(distance), 2)                        AS max_distance_km
-FROM Trips
-WHERE status = 'completed'
-  AND start_time IS NOT NULL
-  AND end_time   IS NOT NULL;
- 
- 
  -- 1.4  Busiest hours of the day
 --      Counts trip requests grouped by hour to reveal demand patterns and
 --      inform driver supply scheduling.
