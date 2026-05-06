@@ -51,7 +51,7 @@ FROM Trips
 WHERE status = 'completed'
 GROUP BY dropoff_location
 ORDER BY dropoff_count DESC;
--- 2.6  Driver performance analysis — trips, ratings, and earnings combined
+-- 2.5  Driver performance analysis — trips, ratings, and earnings combined
 --      A composite view of each driver's activity and quality score to support
 --      performance reviews and incentive decisions.
 WITH DriverStats AS (
