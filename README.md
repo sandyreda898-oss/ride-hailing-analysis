@@ -1,28 +1,30 @@
 # ride-hailing-analysis
 SQL-based data analysis project for a ride-hailing system, exploring trips, drivers, riders, and revenue insights.
-# 🚖 Ride Hailing SQL Analysis
+#  Ride Hailing SQL Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes a ride-hailing system (similar to Uber) using SQL Server to explore trip data and extract meaningful business insights.
 
-## 🎯 Objective
+##  Objective
 The main goal of this project is to analyze:
 - Ride demand patterns
 - Driver performance
 - Revenue trends
-
-## 🗂️ Dataset
+- 
+##  Dataset
 The dataset includes the following tables:
 - Drivers
-- Riders
+-  Users
 - Trips
 - Payments
+- Cars
+- Ratings
 
-## 🔧 Tools Used
+## Tools Used
 - SQL Server
 - SQL (Joins, Aggregations, Subqueries)
 
-## 📊 Key Analysis
+##  Key Analysis
 - Average trip cost
 - Peak ride hours
 - Top-performing drivers
@@ -57,3 +59,5 @@ High ride demand is concentrated during evening hours after work.
 
 ##  Conclusion
 This project shows how SQL can be used to analyze ride-hailing data and extract useful business insights.
+Author
+Sandy Reda
