@@ -33,7 +33,7 @@ The dataset includes the following tables:
 ##  Insights
 
 ###  Peak Ride Hours
-Peak ride demand occurs at **18:00 (6 PM)** with a total of **4,521 trips**, indicating high activity during evening hours.
+Peak ride demand occurs at **18:00 (6 PM)** with a total of **5000trips**, indicating high activity during evening hours.
 
 ###  Total Revenue
 The total revenue generated from all trips is **755,794.69**.
